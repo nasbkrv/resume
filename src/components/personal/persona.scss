@@ -1,0 +1,29 @@
+.side-info {
+	color: #fff;
+	padding: 40px 0;
+	.img-wrap {
+		width: 60%;
+		height: auto;
+		margin: 0 auto;
+		border-radius: 50%;
+		overflow: hidden;
+
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+
+	.info {
+    margin-top: 50px;
+		h2 {
+      margin-top: 25px;
+      text-align: center;
+			font-family: "Bebas Neue", cursive;
+		}
+    .lang-level{
+      max-width: 40%;
+      margin: 15px auto;
+    }
+	}
+}

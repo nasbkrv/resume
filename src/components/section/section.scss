@@ -1,0 +1,25 @@
+.section{
+  padding-left: 30px;
+  h1,h2,h3,h4,h5,h6{
+    font-weight: bold;
+  }
+  .section-title{
+    position: relative;
+    margin-top: 30px;
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    display:inline-block; 
+    padding: 0 15px;
+    font-weight: normal;
+    &.stripe-after{
+      &:after{
+        width: 100% !important;
+      }
+    }
+  }
+  .sub-section{
+    padding-left: 20px;
+  }
+}

@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+html,
+body,
+#root {
+	margin: 0;
+	height: 100%;
+}
+#root {
+	background-color: rgb(26, 26, 26);
+
+	@media (min-width: 768px) {
+		background-color: unset;
+
+		&:after {
+			content: "";
+			position: fixed;
+			z-index: -1;
+			width: 44%;
+			height: 100%;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			background-color: rgb(26, 26, 26);
+		}
+	}
+
+	.stripe-after {
+		&:after {
+			content: "";
+			display: block;
+			margin: 0 auto;
+			position: absolute;
+			z-index: -1;
+			bottom: 10px;
+			left: 0;
+			right: 0;
+			width: 80%;
+			height: 30px;
+			background-color: #ffc107;
+		}
+	}
+}
