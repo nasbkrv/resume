@@ -1,14 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
-html,
-body,
 #root {
-	margin: 0;
-	height: 100%;
-}
-#root {
-	background-color: rgb(26, 26, 26);
-
 	@media (min-width: 768px) {
 		background-color: unset;
 
@@ -24,6 +16,14 @@ body,
 			right: 0;
 			background-color: rgb(26, 26, 26);
 		}
+	}
+	.side-info-bg{
+		background-color: rgb(26, 26, 26);
+
+		@media (min-width: 768px) {
+			background-color: unset;
+		}
+
 	}
 
 	.stripe-after {
